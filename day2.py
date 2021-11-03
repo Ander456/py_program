@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # From Linear Search to Binary Search Algorithm
 # 求一个数的平方根
 def sqrt(n):

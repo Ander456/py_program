@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Two Algorithms to Compute Inverse Factorials
 # 翻转阶乘 比如 给定一个结果 求是哪个数的阶乘得到的这个数
 # 比如 6 -> 3  10->-1

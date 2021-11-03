@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Reversing a List using Stack
 # Stack frist in last out
 # 栈结构先进后出

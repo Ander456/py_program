@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # 3 Different Approaches to Solve Two-Sum Problem
 # 双数之和
 

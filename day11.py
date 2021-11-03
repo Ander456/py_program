@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Compute the Sum of the Digits using Three Methods
 # 计算进制各个位的和
 

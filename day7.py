@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Introduction to Trees, Binary Trees, Perfect Binary Trees, and BFS.
 # 树这种数据结构 是 只有一个根节点 并且所有其他子节点最多只有一个父节点 叶子节点没有kid节点
 # binary tree 是一个节点最多只有两个kid节点的树

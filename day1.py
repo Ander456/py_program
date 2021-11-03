@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Recursion in Five Minutes
 # someone call itself repeatelly
 # 什么是递归

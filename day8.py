@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Different Algorithms to Check if a String is Palindrome
 # 检测是否是回文串
 

@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Introduction to Queue Data Structure and Examples
 # 队列数据结构 first in first out
 

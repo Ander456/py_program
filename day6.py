@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Introduction to Venn Graph and Set in Python (Check Unique String)
 # Set 只允许唯一key的容器
 

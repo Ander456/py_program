@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Computing Fibonacci Numbers using 3 Methods
 # 计算菲波那切数列 也就是求斐波那契数列上的数是几
 # 0、1、1、2、3、5、8、13、21 ....
