@@ -27,3 +27,5 @@ def bfs(nums, s):
 print(bfs([2,0,3,1,3,4], 3))
 
 print(bfs([1,0,1,5,8,9], 5))
+
+print(bfs([4,2,3,0,3,1,2], 1))
