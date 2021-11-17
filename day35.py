@@ -24,8 +24,17 @@ def b2d(n):
         ans = ans * 2 + int(i)
     return ans
 
+def b2d2(n):
+    ans = 0
+    index = len(n)-1
+    for i in n:
+        ans += int(i) * 2**index
+        index -=1
+    return ans
+
 
 print(d2b(5))
 
 # print(b2d("101"))
-print(b2d("111"))
+print(b2d("11011"))
+print(b2d2("11011"))
