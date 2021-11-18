@@ -21,7 +21,7 @@ def d2b(n):
 def b2d(n):
     ans = 0
     for i in n:
-        ans = ans * 2 + int(i)
+        ans = ans * 2 + int(i) # 这里*2其实和左移一位一个意思 我们十进制转二进制的时候不断除以2取余 那么往回返肯定是乘以2
     return ans
 
 def b2d2(n):
