@@ -40,4 +40,4 @@ class BinaryTree:
                 q.append(p.right)
         
 # 有一个很巧合的事情 就是 如果是 二叉搜索书 BST 那么 BST的 中序遍历 inorder 的结果 就是 in order的 
-# 英文里 in order 表示的就是 按顺序  而 inorder 遍历也正巧是这样 太6了
+# 英文里 in order 表示的就是 按顺序  而 inorder 遍历也正巧是这样 太6了day
