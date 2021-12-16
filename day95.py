@@ -21,7 +21,7 @@ def confusing(n):
         if x == -1:
             return False
         ans = str(x) + ans
-    return n != int(ans)
+    return n == ans
 
 print(confusing(123)) 
 print(confusing(8)) 
