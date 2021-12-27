@@ -46,7 +46,7 @@ def f2(n):
             j += 1
     return dp[-1] # or dp[n]
 
-# 时间辅助度O(N*根号N)
+# 时间复杂度O(N*根号N)
 
 print(f2(23))
 
