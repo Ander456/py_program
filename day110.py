@@ -36,8 +36,8 @@ def f2(s):
     n = len(s)
     # return [f(i, j) for i in range(n) for j in range(i, n)].count(True)
     ans = 0
-    for i in range(n):
-        for j in range(i, n):
+    for i in range(n):  # i 范围 0 -> n-1
+        for j in range(i, n): # j 范围 i -> n-1
             if f(i,j):
                 ans += 1
     return ans # 这一块就等于上面这一行
@@ -48,8 +48,8 @@ print(f2("aaa"))
 def f3(s):
     n = len(s)
     dp = [[True] * n for _ in range(n)] # 二维数组
-    for i in range(n-1,-1,-1): # 倒着走
-        for j in range(i+1, n): # j在i右边
+    for i in range(n-1,-1,-1): # n-1 -> 0
+        for j in range(i+1, n): # i+1 -> n-1
             dp[i][j] = s[i] == s[j] and dp[i+1][j-1]
     return [dp[i][j] for i in range(n) for j in range(i, n)].count(True)
 # 时间复杂度O(N平方) 空间复杂度O(N平方）
