@@ -1,7 +1,7 @@
 # -- coding: utf-8 --
 # Using Heap (Priority Queue) to Generate Nth Ugly Number
 # 用堆来计算 第n个 ugly number
-# ugly number 参考 day90
+# ugly number 参考 day90 . Ugly number is a positive number whose prime factors only include 2, 3, and/or 5.
 
 # Example 1:
 # Input: n = 10
@@ -32,3 +32,4 @@ def nthUglyNumber(n):
 # 思想就是
 # We can keep the ugly numbers in a heap (or priority queue), then for next ugly number, we pick the smallest ugly number that we have generated so far, 
 # and multiply another prime factor of 2, 3, and 5, and if it has not been seen, we push it back to the priority queue (or insert it into the heap).
+# 只有它本身是个丑数 那么他作为因子factor  2,3,5才会还是丑数
