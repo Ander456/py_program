@@ -50,9 +50,13 @@ def generatePrimeNumbers(n):
 # 方法2 
 # We can do better by using Sieve of Eratosthenes Algorithm where we erase non-prime numbers from the list. 
 # Every iteration, we erase the multiples of the prime numbers from the list, the remaining ones are prime numbers.
-
+# 每次迭代我们都删除掉 素数的倍数
+# 比如[2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+# 我们给定一个数20 那么我们开始迭代
+# i从2开始 2x2 <= 20 2是素数么？是那么j=2+2=4 4<=20所以 4不是个素数 然后 j+=2也就是不断加上素数2这些都不是了 
+# i变成3 3x3<=20 3是素数么？ 是那么j=3+3=6 所以6不是素数 balbalbalbal
 def generatePrimeNumbers2(n):
-    isPrime = [False] * 2 + [True] * (n-1) 
+    isPrime = [False] * 2 + [True] * (n-1) #[0,1]这俩不是 + 后面假定都是
     i = 2
     while i * i <= n:
         if isPrime[i]:
