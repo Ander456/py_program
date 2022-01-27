@@ -7,7 +7,6 @@
 import math
 
 def maxMumSubTree(root):
-   
     ans = -math.inf
     def dfs(root):
         nonlocal ans
@@ -16,4 +15,7 @@ def maxMumSubTree(root):
         x = root.val + dfs(root.left) + dfs(root.right) # 以root为根节点的这颗子树的所有节点的和
         ans = max(x, ans)
         return x
-    return dfs(root)
+    dfs(root)
+    return max(ans, 0)
+
+# 时间复杂度 O(N) 空间O(N)
