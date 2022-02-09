@@ -20,7 +20,7 @@ class BinaryTree:
         print(root.value)
         self.inorder(root.right)
 
-    # 后序遍历 右-父-左
+    # 后序遍历 左-右-父
     def postorder(self, root):
         self.postorder(root.left)
         self.postorder(root.right)
